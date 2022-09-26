@@ -1,0 +1,14 @@
+.dev-board__body--sort-bar {
+	margin: 2rem 0rem;
+	min-width: 600px;
+}
+
+.dev-board__body--sort-dropdown {
+	display: inline-block;
+	padding: 0rem 3rem 0rem 1rem;
+}
+
+.dev-board__body--sort-dropdown select{
+	background-color: transparent;
+	border:0px;
+}

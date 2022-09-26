@@ -1,0 +1,22 @@
+.dev-board__body--search {
+	display: flex;
+}
+
+.dev-board__body--search input {
+	background-color: white;
+	border: 1px solid #333;
+	height: 2rem;
+	padding: 0rem 1rem;
+	flex-grow: 1;
+	border-radius: 10px;
+}
+
+.dev-board__body--search-button {
+	background-color: lightblue;
+	border: 1px solid #333;
+	color: var(--text-color);
+	height: 2rem;
+	padding: 0rem 1rem;
+	margin-left: 0.5rem;
+	border-radius: 10px;
+}

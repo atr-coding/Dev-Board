@@ -1,0 +1,59 @@
+.dev-board__body--board-post {
+	display: flex;
+	margin: 2rem 0rem;
+	height: 3rem;
+	line-height: 3rem;
+	background-color: rgb(230, 230, 230);
+	padding-left: 1rem;
+	border-radius: 10px;
+	min-width: 600px;
+}
+
+.dev-board__body--board-post-title:hover {
+	/* background-color: rgb(220, 220, 220); */
+	color: rgb(0, 171, 144);
+}
+
+.dev-board__body--board-post-title {
+	flex-grow: 1;
+	text-overflow: ellipsis;
+	min-width: 200px;
+}
+
+.dev-board__body--board-post-tag {
+	text-align: center;
+	background-color: rgb(40, 126, 255);
+	color: white;
+	height: 1.5rem;
+	width: 150px;
+	min-width: 150px;
+	line-height: 1.5rem;
+	margin: 0.75rem 1rem 0rem 2rem;
+	border-radius: 10px;
+	font-size: 0.75rem;
+}
+
+.dev-board__body--board-post-votes {
+	/* display: inline-flex; */
+	/* align-self: center; */
+	font-size: 1.3rem;
+	width: 100px;
+	text-align: right;
+	/* border:1px solid black; */
+}
+
+.dev-board__body--board-post-upvote {
+	display: inline-flex;
+	align-self: center;
+	margin: 0rem 1rem 0rem 1rem;
+}
+
+.dev-board__body--board-post img {
+	height: 1.3rem;
+	position: relative;
+	top: .01rem;
+}
+
+.dev-board__body--board-post img:hover {
+	filter: invert(40%) sepia(29%) saturate(4995%) hue-rotate(145deg) brightness(99%) contrast(101%);
+}

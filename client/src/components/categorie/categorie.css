@@ -1,0 +1,28 @@
+.selected-tab {
+	/* background-color: var(--nav-bar-tab-selected-color); */
+	background-color: rgb(230, 230, 230);
+}
+
+.dev-board__nav--category-title {
+	padding-left: 1rem;
+	height: 3rem;
+	line-height: 3rem;
+	background-color: rgb(240, 240, 240);
+	overflow: hidden;
+}
+
+/* .dev-board__nav--category-list {
+	display: none;
+} */
+
+.dev-board__nav--category-tab {
+	padding-left: 1rem;
+	height: 3rem;
+	line-height: 3rem;
+	overflow: hidden;
+}
+
+.dev-board__nav--category-tab:hover {
+	/* background-color: var(--nav-bar-tab-hover-color); */
+	background-color: rgb(220, 220, 220);
+}

@@ -1,0 +1,136 @@
+.dev-board__body--post {
+	display: flex;
+	margin-bottom:1rem;
+	height: 3rem;
+	line-height: 3rem;
+	background-color: rgb(230, 230, 230);
+	padding-left: 1rem;
+	border-radius: 10px;
+	min-width: 600px;
+}
+
+.dev-board__body--post-title:hover {
+	/* background-color: rgb(220, 220, 220); */
+	color: rgb(0, 171, 144);
+}
+
+.dev-board__body--post-title {
+	flex-grow: 1;
+	text-overflow: ellipsis;
+	min-width: 200px;
+}
+
+.dev-board__body--post-tag {
+	text-align: center;
+	background-color: rgb(40, 126, 255);
+	color: white;
+	height: 1.5rem;
+	width: 150px;
+	min-width: 150px;
+	line-height: 1.5rem;
+	margin: 0.75rem 1rem 0rem 2rem;
+	border-radius: 10px;
+	font-size: 0.75rem;
+}
+
+.dev-board__body--post-votes {
+	/* display: inline-flex; */
+	/* align-self: center; */
+	font-size: 1.3rem;
+	width: 100px;
+	text-align: right;
+	/* border:1px solid black; */
+}
+
+.dev-board__body--post-upvote {
+	display: inline-flex;
+	align-self: center;
+	margin: 0rem 1rem 0rem 1rem;
+}
+
+.dev-board__body--post img {
+	height: 1.3rem;
+	position: relative;
+	top: .01rem;
+}
+
+.dev-board__body--post img:hover {
+	filter: invert(40%) sepia(29%) saturate(4995%) hue-rotate(145deg) brightness(99%) contrast(101%);
+}
+
+.dev-board__body--post-back-button {
+	display: inline-flex;
+	align-self: center;
+	margin-right: 1rem;
+}
+
+.dev-board__body--post-back-button img {
+	transform: rotate(-90deg);
+}
+
+.dev-board__body--comment {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(230, 230, 230);
+	border-radius: 10px;
+	padding: 1rem;
+	margin: 1rem 0rem;
+}
+
+.dev-board__body--comment-title {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid black;
+	margin: 0rem 1rem 0rem 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.dev-board__body--comment-user {
+	flex-grow: 1;
+	font-weight: bold;
+}
+
+/* .dev-board__body--comment-date {} */
+
+.dev-board__body--comment-message {
+	padding: 1rem;
+}
+
+.dev-board__body--submit-comment-form {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(230, 230, 230);
+	border-radius: 10px;
+	padding: 1rem;
+	margin: 1rem 0rem;
+}
+
+.dev-board__body--submit-comment-form-username {
+	margin-bottom: 1rem;
+}
+
+.dev-board__body--submit-comment-form-username input {
+	background-color: white;
+	border: 0px;
+	height: 1.5rem;
+	padding: 0rem 0.5rem;
+	margin-left: 1rem;
+	border-radius: 5px;
+}
+
+.dev-board__body--submit-comment-form-message {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+.dev-board__body--submit-comment-form-message textarea {
+	margin-top: 0.5rem;
+	resize: none;
+}
+
+.dev-board__body--submit-comment-form-submit {
+	width: 5rem;
+	border: 1px solid black;
+	border-radius: 5px;
+}

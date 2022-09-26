@@ -1,0 +1,17 @@
+.dev-board__header {
+	height: 5rem;
+	width: 100%;
+	border-bottom: 1px solid rgb(100, 100, 100);
+	line-height: 5rem;
+}
+
+.dev-board__header--logo {
+	padding-left: 2rem;
+	font-size: 2rem;
+	float:left;
+}
+
+.dev-board__header--user {
+	float:right;
+	padding-right: 5rem;
+}

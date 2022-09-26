@@ -1,0 +1,15 @@
+POST http://localhost:5000/api/tags/ HTTP/1.1
+content-type: application/json
+
+{
+	"name": "New",
+	"color": "#0099FF"
+}
+
+# {
+# 	"title": "Visual Studio for Linux ",
+# 	"status": "Completed - Release",
+# 	"votes": "1974",
+# 	"date": "2022-09-07T03:07:05.000+00:00",
+# 	"categorie_id": "631a17d8b3aa991267c72511"
+# }
